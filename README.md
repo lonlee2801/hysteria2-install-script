@@ -30,4 +30,4 @@ A fast and easy-to-use installation script for Hysteria 2. / Hysteria 2 一键�
 以 **root** 用户身份在终端执行以下命令：
 
 ```bash
-bash <(curl -fsSL [https://raw.githubusercontent.com/lonlee2801/hysteria2-install-script/main/install.sh](https://raw.githubusercontent.com/lonlee2801/hysteria2-install-script/main/install.sh))
+bash <(curl -fsSL https://raw.githubusercontent.com/lonlee2801/hysteria2-install-script/main/install.sh)
