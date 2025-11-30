@@ -23,10 +23,11 @@
 推荐使用 **Debian 10+** / **Ubuntu 20.04+** 系统。请以 **root** 用户身份运行：
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/lonlee2801/hysteria2-install-script/main/install.sh)
-
+```
 
 ## 🗑️ 卸载 (Uninstall)
 
 调用官方卸载逻辑，并清理相关文件：
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/lonlee2801/hysteria2-install-script/main/uninstall.sh)
+```
