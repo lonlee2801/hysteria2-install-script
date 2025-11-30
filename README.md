@@ -31,3 +31,10 @@ bash <(curl -fsSL https://raw.githubusercontent.com/lonlee2801/hysteria2-install
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/lonlee2801/hysteria2-install-script/main/uninstall.sh)
 ```
+
+## ⚠️ 特别注意：Cloudflare 用户
+
+如果你使用 Cloudflare 解析域名，**必须**将代理状态设置为 **"仅 DNS" (DNS Only)**（即**灰色云朵**图标）。
+
+❌ **不要开启** "已代理" (Proxied / 橙色云朵)。
+* 原因：Hysteria 2 使用 UDP 协议，Cloudflare 免费版 CDN 不支持代理 UDP 流量，开启后会导致无法连接 (Timeout 或 403 错误)。
